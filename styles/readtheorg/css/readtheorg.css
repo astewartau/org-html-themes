@@ -212,7 +212,11 @@ dl dd{
         margin: 15mm 0mm 15mm 0mm;
     }
 
-    @page .answer::before {
+    body {
+	font-size: 80%;
+    }
+
+    .answer:before {
 	content: "Answer" !important;
     }
 
