@@ -1101,12 +1101,10 @@ h2.footnotes{
 }
 
 pre.example {
-    font-family: "Lucida Console", monospace;
+    font-family: "Consolas", monospace;
     width: 100%;
     margin: 24px 0px 24px 0px;
     box-shadow: 3px 3px 3px #eee;
-    line-height: 1.2em;
-    font-size: 1.3em;
     background-color: #3b3b3b;
     color: #e1e4e5;
 }
