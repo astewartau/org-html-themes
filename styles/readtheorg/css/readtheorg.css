@@ -187,9 +187,6 @@ dl dd{
     img{
         max-width:100% !important}
 
-    @page{
-        margin:0.5cm}
-
     p,h2,h3{
         orphans:3;
         widows:3}
@@ -210,9 +207,14 @@ dl dd{
     #table-of-contents{
         display:none}
 
-    @page{
+    @page {
         size: auto;
-        margin: 25mm 25mm 25mm 25mm;}
+        margin: 15mm 0mm 15mm 0mm;
+    }
+
+    @page .answer::before {
+	content: "Answer" !important;
+    }
 
     body {
         margin: 0px;}
