@@ -1100,55 +1100,86 @@ h2.footnotes{
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
 }
 
-pre.example {
-    font-family: "Consolas", monospace;
-    width: 100%;
-    margin: 24px 0px 24px 0px;
-    box-shadow: 3px 3px 3px #eee;
-    background-color: #3b3b3b;
-    color: #e1e4e5;
+.review {
+    background-color: #ffffd1;
 }
 
-.answer::before {
-    content: "Hover for answer";
-    color: black;
+.assessable:before, .review:before {
+    margin-top: 10px;
+    display: block;
     font-weight: bold;
-    display: block;
-}
-.answer {
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8px;
-    color: white;
-    border:1px solid #e1e4e5;
-    margin-bottom: 24px;
-    display: block;
 }
 
-.answer ul, .answer ol {
+.assessable:before {
+    content: "Assessable:";
+}
+
+.review:before {
+    content: "Review:";
+}
+
+.assessable, .review {
+    padding: 2px 10px 2px 10px;
+}
+
+.assessable {
+    background-color: #dff0ff;
+}
+
+span.answer {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: transparent;
+    background-color: #575757;
+}
+
+span.answer:hover {
+    color: white !important;
+}
+
+
+div.answer, div.answer div.org-src-container pre.src span {
+    background-color: white;
+    color: transparent !important;;
+}
+
+.answer:hover, div.answer:hover div.org-src-container pre.src span {
+    color: unset !important;;
+}
+
+div.answer:before {
+    color: black;
+    content: "Hover for answer";
+    display: block;
+    font-weight: bold;
+}
+
+pre, pre.src, pre.example {
+    border: 1px solid black;
+}
+
+pre, pre.src, pre.example, code {
+    font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    font-size: 85%;
+    margin: 0;
+    box-shadow: none;
+}
+
+code {
     margin: 0;
 }
 
-.answer code {
+pre.example {
+    background-color: #575757;
     color: white;
-    border: none;
-    background: inherit;
-}
-
-.answer:hover {
-    color: inherit;
-}
-
-.answer:hover code {
-    color: blue;
-    border:solid 1px #e1e4e5;
-    background:#fff;
-}
-
-.answer p {
-    margin: 0;
+    margin-top: -1px;
 }
 
 iframe {
     width: 100%;
     height: 100%;
+}
+
+h2, h3, h4 {
+    margin-top: 1em;
 }
