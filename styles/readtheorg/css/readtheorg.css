@@ -1100,6 +1100,7 @@ h2.footnotes{
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
 }
 
+
 .review {
     background-color: #ffffd1;
 }
@@ -1137,13 +1138,12 @@ span.answer:hover {
     color: white !important;
 }
 
-
-div.answer, div.answer div.org-src-container pre.src span {
+div.answer, div.answer code, div.answer div.org-src-container pre.src span {
     background-color: white;
     color: transparent !important;;
 }
 
-.answer:hover, div.answer:hover div.org-src-container pre.src span {
+.answer:hover, div.answer:hover code, div.answer:hover div.org-src-container pre.src span {
     color: unset !important;;
 }
 
