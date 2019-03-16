@@ -518,7 +518,7 @@ legend{
     padding:0;
     white-space:normal}
 
-.fa:before,#content .admonition-title:before,#content h1 .headerlink:before,#content h2 .headerlink:before,#content h3 .headerlink:before,#content h4 .headerlink:before,#content h5 .headerlink:before,#content h6 .headerlink:before,#content dl dt .headerlink:before,.icon:before,.wy-dropdown .caret:before,.wy-inline-validate.wy-inline-validate-success .wy-input-context:before,.wy-inline-validate.wy-inline-validate-danger .wy-input-context:before,.wy-inline-validate.wy-inline-validate-warning .wy-input-context:before,.wy-inline-validate.wy-inline-validate-info .wy-input-context:before,.wy-alert,#content .note,#content .attention,#content .caution,#content .danger,#content .error,#content .hint,#content .important,#content .tip, #content .review,#content .warning,#content .seealso,#content .admonitiontodo,.btn,input[type="text"],input[type="password"],input[type="email"],input[type="url"],input[type="date"],input[type="month"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="week"],input[type="number"],input[type="search"],input[type="tel"],input[type="color"],select,textarea,#table-of-contents li.on a,#table-of-contents li.current>a,.wy-side-nav-search>a,.wy-side-nav-search .wy-dropdown>a,.wy-nav-top a{
+.fa:before,#content .admonition-title:before,#content h1 .headerlink:before,#content h2 .headerlink:before,#content h3 .headerlink:before,#content h4 .headerlink:before,#content h5 .headerlink:before,#content h6 .headerlink:before,#content dl dt .headerlink:before,.icon:before,.wy-dropdown .caret:before,.wy-inline-validate.wy-inline-validate-success .wy-input-context:before,.wy-inline-validate.wy-inline-validate-danger .wy-input-context:before,.wy-inline-validate.wy-inline-validate-warning .wy-input-context:before,.wy-inline-validate.wy-inline-validate-info .wy-input-context:before,.wy-alert,#content .note,#content .attention,#content .caution,#content .danger,#content .error,#content .hint,#content .important,#content .tip, #content .review,#content, #content .assessable, .warning,#content .seealso,#content .admonitiontodo,.btn,input[type="text"],input[type="password"],input[type="email"],input[type="url"],input[type="date"],input[type="month"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="week"],input[type="number"],input[type="search"],input[type="tel"],input[type="color"],select,textarea,#table-of-contents li.on a,#table-of-contents li.current>a,.wy-side-nav-search>a,.wy-side-nav-search .wy-dropdown>a,.wy-nav-top a{
     -webkit-font-smoothing:antialiased}
 
 /*!
@@ -581,7 +581,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 .nav #content .admonition-title,#content .nav .admonition-title,.nav .icon{
     display:inline}
 
-.wy-alert,#content .note,#content .attention,#content .caution,#content .danger,#content .error,#content .hint,#content .important,#content .tip,#content .warning,#content .seealso,#content .review, #content .admonitiontodo{
+.wy-alert,#content .note,#content .attention,#content .caution,#content .danger,#content .error,#content .hint,#content .important,#content .tip,#content .warning,#content .seealso,#content .review, #content .assessable, #content .admonitiontodo{
     padding:12px;
     line-height:24px;
     margin-bottom:24px;
@@ -601,7 +601,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 #content .danger,#content .error{
     background:#fdf3f2}
 
-.wy-alert.wy-alert-warning,#content .wy-alert-warning.note,#content .attention,#content .caution,#content .wy-alert-warning.danger,#content .wy-alert-warning.error,#content .wy-alert-warning.hint, #content .wy-alert-warning.review,#content .wy-alert-warning.important,#content .wy-alert-warning.tip,#content .warning,#content .wy-alert-warning.seealso,#content .admonitiontodo{
+.wy-alert.wy-alert-warning,#content .wy-alert-warning.note,#content .attention,#content .caution,#content .wy-alert-warning.danger,#content .wy-alert-warning.error,#content .wy-alert-warning.hint, #content .wy-alert-warning.review, #content .wy-alert-warning.assessable, #content .wy-alert-warning.important,#content .wy-alert-warning.tip,#content .warning,#content .wy-alert-warning.seealso,#content .admonitiontodo{
     background:#ffedcc}
 
 #content .admonition-title.note:before, #content .admonition-title.seealso:before,
@@ -609,6 +609,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 #content .admonition-title.attention:before,
 #content .admonition-title.tip:before, #content .admonition-title.hint:before,
 #content .admonition-title.review:before,
+#content .admonition-title.assessable:before,
 #content .admonition-title.important:before,
 #content .admonition-title.error:before, #content .admonition-title.danger:before{
     font-family:FontAwesome;
@@ -617,7 +618,7 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 #content .note,#content .seealso{
     background:#e7f2fa}
 
-.wy-alert p:last-child,#content .note p:last-child,#content .attention p:last-child,#content .caution p:last-child,#content .danger p:last-child,#content .error p:last-child,#content .hint p:last-child, #content .review p:last-child, #content .important p:last-child,#content .tip p:last-child,#content .warning p:last-child,#content .seealso p:last-child,#content .admonitiontodo p:last-child{
+.wy-alert p:last-child,#content .note p:last-child,#content .attention p:last-child,#content .caution p:last-child,#content .danger p:last-child,#content .error p:last-child,#content .hint p:last-child, #content .assessable p:last-child, #content .review p:last-child, #content .important p:last-child,#content .tip p:last-child,#content .warning p:last-child,#content .seealso p:last-child,#content .admonitiontodo p:last-child{
     margin-bottom:0}
 
 #content .admonition-title.tip,#content .admonition-title.important,#content .admonition-title.hint{
@@ -626,13 +627,12 @@ a .fa,a #content .admonition-title,#content a .admonition-title{
 
 #content .admonition-title.review {
     line-height: 1;
-    background:yellow}
-
+    background:#f8c866}
 
 #content .important,#content .tip,#content .hint{
     background:#dbfaf4}
 
-#content .admonition-title.note,#content .admonition-title.seealso{
+#content .admonition-title.note,#content .admonition-title.assessable, #content .admonition-title.seealso{
     line-height: 1;
     background:#6ab0de}
 
@@ -1107,9 +1107,9 @@ h2.footnotes{
 }
 
 
-.review {
-    background-color: #ffffd1;
-}
+/* .review { */
+/* background-color: #ffffd1; */
+/* } */
 
 .assessable:before {
     margin-top: 10px;
