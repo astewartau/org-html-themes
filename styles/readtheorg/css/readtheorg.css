@@ -1125,7 +1125,7 @@ span.answer:hover {
     color: white !important;
 }
 
-div.answer, div.answer code, div.answer div.org-src-container pre.src span {
+div.answer, div.answer code, div.answer div.org-src-container pre.src {
     background-color: white;
     color: transparent !important;;
 }
