@@ -1106,10 +1106,13 @@ h2.footnotes{
     font-family:"Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif
 }
 
+.review {
+    background-color: #ffffd1;
+}
 
-/* .review { */
-/* background-color: #ffffd1; */
-/* } */
+.assessable {
+    background-color: #e7f2fa;
+}
 
 span.answer {
     padding-left: 5px;
