@@ -1111,7 +1111,7 @@ h2.footnotes{
     background-color: #ffffd1;
 }
 
-.assessable:before, .review:before {
+.assessable:before {
     margin-top: 10px;
     display: block;
     font-weight: bold;
@@ -1121,11 +1121,7 @@ h2.footnotes{
     content: "Assessable:";
 }
 
-.review:before {
-    content: "Review:";
-}
-
-.assessable, .review {
+.assessable {
     padding: 2px 10px 2px 10px;
 }
 
