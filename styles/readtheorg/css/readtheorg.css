@@ -1125,7 +1125,7 @@ span.answer:hover {
     color: white !important;
 }
 
-div.answer, div.answer code, div.answer div.org-src-container pre.src {
+div.answer, div.answer code, div.answer div.org-src-container pre.src span {
     background-color: white;
     color: transparent !important;;
 }
@@ -1171,3 +1171,8 @@ iframe {
 h2, h3, h4 {
     margin-top: 1em;
 }
+
+table, .admonition-title {
+    margin-top: 24px;
+}
+
