@@ -1,5 +1,6 @@
 $(function() {
     $('.note').before("<p class='admonition-title note'>Note</p>");
+    $('.review').before("<p class='admonition-title review'>Review</p>");
     $('.seealso').before("<p class='admonition-title seealso'>See also</p>");
     $('.warning').before("<p class='admonition-title warning'>Warning</p>");
     $('.caution').before("<p class='admonition-title caution'>Caution</p>");
