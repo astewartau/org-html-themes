@@ -1143,12 +1143,22 @@ div.answer:before {
 
 pre, pre.src, pre.example {
     border: 1px solid black;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.code-pair pre.src {
+    margin-bottom: 0px;
+}
+
+.code-pair pre.example {
+    margin-top: 0px;
 }
 
 pre, pre.src, pre.example, code {
     font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     font-size: 85%;
-    margin: 0;
+    margin: 24px 0px 24px 0px;
     box-shadow: none;
 }
 
